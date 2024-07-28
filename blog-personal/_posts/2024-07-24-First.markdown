@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Day 1!"
+date:   2024-07-23 21:48:08 -0700
+categories: this site
+---
+This is the beginning of something new.
+
+This site was built with a ruby framework called Jekyll, spun up on a Fedora KDE machine. The bundle will be packaged as a docker image and then pushed to github.
+
+Then, with the use of Google Cloud services, it will be spun up dynamically and served from github by the Cloud Run configuration. The alternative option was to have a constantly-running ubuntu micro VM with nginx, but I liked the idea of trying a dynamic image instead of a permanent VM.
+
+As of the writing of this post, the blog has not yet been deployed to the google cloud, nor has the domain been purchased and configured.
